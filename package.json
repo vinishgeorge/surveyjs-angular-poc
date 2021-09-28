@@ -1,0 +1,55 @@
+{
+  "scripts": {
+    "test": "ng test",
+    "start": "ng serve",
+    "ng": "ng",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "build": "ng build --prod"
+  },
+  "private": true,
+  "name": "surveyjs-angular",
+  "keywords": [
+    "angular",
+    "surveyjs"
+  ],
+  "devDependencies": {
+    "typescript": "3.9.7",
+    "tslint": "~5.9.1",
+    "ts-node": "~4.1.0",
+    "protractor": "~5.1.2",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "karma-jasmine": "~1.1.0",
+    "karma-coverage-istanbul-reporter": "^1.2.1",
+    "karma-chrome-launcher": "~2.2.0",
+    "karma": "~2.0.0",
+    "jasmine-spec-reporter": "~4.2.1",
+    "jasmine-core": "~2.8.0",
+    "codelyzer": "^4.0.1",
+    "@types/node": "~6.0.60",
+    "@types/jasminewd2": "~2.0.2",
+    "@types/jasmine": "~2.8.3",
+    "@types/core-js": "0.9.46",
+    "@angular/language-service": "^5.2.0",
+    "@angular/compiler-cli": "^5.2.0",
+    "@angular/cli": "1.6.6"
+  },
+  "description": "SurveyJS-Angular example project",
+  "dependencies": {
+    "zone.js": "0.10.2",
+    "tslib": "1.13.0",
+    "survey-knockout": "latest",
+    "survey-creator": "latest",
+    "rxjs": "6.5.4",
+    "core-js": "3.6.4",
+    "bootstrap": "^3.3.7",
+    "@angular/router": "^10.0.0",
+    "@angular/platform-browser-dynamic": "^10.0.0",
+    "@angular/platform-browser": "^10.0.0",
+    "@angular/forms": "^10.0.0",
+    "@angular/core": "^10.0.0",
+    "@angular/compiler": "^10.0.0",
+    "@angular/common": "^10.0.0",
+    "@angular/animations": "^10.0.0"
+  }
+}
